@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project 1 - Pendaftaran Seminar</title>
+</head>
+<body>
+
+  <h1>Seminar Nasional Teknologi Informasi</h1>
+
+  <p>
+    <i>Inovasi Digital untuk Masa Depan</i>
+  </p> 
+
+  <h3>Menu Navigasi:</h3>
+  <ul>
+    <li><a href="#tentang">Tentang Seminar</a></li>
+    <li><a href="#jadwal">Jadwal</a></li>
+    <li><a href="#formulir">Formulir Pendaftaran</a></li>
+  </ul>
+
+
+  <h3 id="tentang">Tentang Seminar</h3>
+  <p>
+    Seminar ini bertujuan untuk mempertemukan akademisi, praktisi, dan mahasiswa dalam membahas
+    perkembangan <b>transformasi digital</b> di Indonesia.
+  </p>
+
+  <p>
+    Acara akan diselenggarakan secara <u>daring (online)</u> melalui platform Zoom Meeting.
+  </p>
+
+  <p>
+    Informasi lebih lanjut dapat dilihat di situs resmi kami: 
+    <a href="https://www.contohseminar.com/" target="_blank">www.contohseminar.com</a>
+  </p>
+
+  <img src="jadwal-seminar.jpg" alt="Jadwal Seminar" width="50%">
+
+  <h3 id="jadwal">Jadwal Seminar</h3>
+
+  <table border="1" cellspacing="0" cellpadding="5">
+    <tr>
+      <th rowspan="2">Waktu</th>
+      <th colspan="2">Agenda</th>
+    </tr>
+
+    <tr>
+      <th>Topik</th>
+      <th>Pembicara</th>
+    </tr>
+    <tr>
+      <td>08:00 - 08:30</td>
+      <td>Pembukaan</td>
+      <td rowspan="2">Dr. Andi Surya</td>
+    </tr>
+    <tr>
+      <td>08:30 - 09:30</td>
+      <td>Kebijakan Teknologi Nasional</td>
+    </tr>
+    <tr>
+      <td>09:30 - 10:30</td>
+      <td>AI dalam Pendidikan</td>
+      <td>Prof. Siti Rahma</td>
+    </tr>
+  </table>
+ 
+  <h3 id="formulir">Formulir Pendaftaran</h3>
+    <form action="#">
+
+    <fieldset>
+      <legend>Data Diri</legend>
+      <p>Nama Lengkap:<br>
+      <input type="text" name="nama"></p>
+
+      <p>Email:<br>
+      <input type="email" name="email"></p>
+
+      <p>Asal Institusi:<br>
+      <input type="text" name="institusi"></p>
+
+      <p>Jenis Kelamin:<br>
+      <input type="radio" name="jenis_kelamin" value="pria" id="pria">
+      <label for="pria">Pria</label><br>
+  
+      <input type="radio" name="jenis_kelamin" value="wanita" id="wanita">
+      <label for="wanita">Wanita</label>
+      </p>
+
+     </fieldset>
+
+    <fieldset>
+      <legend>Preferensi Seminar</legend>
+      <p>Topik yang Diminati:<br>
+        <select name="topik">
+        <option value="ai">Kecerdasan Buatan</option>
+        <option value="iot">Analisi Perancangan sistem informasi</option>
+        <option value="cyber">Pemrograman berbasis web</option>
+        </select>
+      </p>
+
+      <p>Platform Favorit:<br>
+      <input type="checkbox" name="platform" value="zoom"> Zoom <br>
+      <input type="checkbox" name="platform" value="gmeet"> Google Meet <br>
+      <input type="checkbox" name="platform" value="youtube"> YouTube</p>
+
+    </fieldset>
+    <p>Pesan atau Pertanyaan:<br>
+      <textarea name="pesan" rows="4" cols="40">Tulis pesan Anda di sini...</textarea></p>
+
+    <p>
+    <input type="submit" value="Daftar Sekarang">
+    <input type="reset" value="Reset Form">
+  </p>
+</form>
+
+  <p>© 2025 Seminar Nasional TI. Semua hak dilindungi.</p>
+
+</body>
+</html>
